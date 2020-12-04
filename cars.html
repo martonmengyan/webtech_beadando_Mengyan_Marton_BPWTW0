@@ -1,0 +1,64 @@
+<html lang="en">
+<script src="js/cars.js" type="text/javascript"></script>
+<form method="POST" action="https://webtechcars.herokuapp.com/api/cars">
+    <div class="Tabla"></div>
+        <table class="infoTable" id="carsTable">
+            <tr>
+                <th>ID</th>
+                <th>Autó neve</th>
+                <th>Fogyasztás</th>
+                <th>Szín</th>
+                <th>Gyártó</th>
+                <th>Elérhető darabszám</th>
+                <th>Gyártási év</th>
+                <th>Lóerő</th>
+            </tr>
+            <tr>
+                <th><button id="addCar">Hozzáad</button></th>
+                <th><input type="text" id="name" placeholder="Autó neve"></th>
+                <th><input type="text" id="consumption" placeholder="Fogyasztás"></th>
+                <th><input type="text" id="color" placeholder="Szín"></th>
+                <th><select type="text" id="manufacturer"></select></th>
+                <th><input type="number" id="available" placeholder="Elérhető darabszám"></th>
+                <th><input type="number" id="year" placeholder="Gyártási év"></th>
+                <th><input type="number" id="horsepower" placeholder="Lóerő"></th>
+            </tr>
+        </table>
+        <table class="otherTable">
+            <tr>
+                <th>Autó törlése</th>
+                <th>Auto id</th>
+            </tr>
+            <tr>
+                <th><button id="deleteCar">Törlés</button></th>
+                <th><select type="text" id="idDelete"></select></th>
+            </tr>
+        </table>
+        <table class="otherTable" id="carsTable">
+            <tr>
+                <th>ID</th>
+                <th>Autó neve</th>
+                <th>Fogyasztás</th>
+                <th>Szín</th>
+                <th>Gyártó</th>
+                <th>Elérhető darabszám</th>
+                <th>Gyártási év</th>
+                <th>Lóerő</th>
+            </tr>
+            <tr>
+                <th><select type="text" id="idEdit"></select></th>
+                <th><input type="text" id="name2" placeholder="Autó neve"></th>
+                <th><input type="text" id="consumption2" placeholder="Fogyasztás"></th>
+                <th><input type="text" id="color2" placeholder="Szín"></th>
+                <th><select type="text" id="manufacturer2"></select></th>
+                <th><input type="number" id="available2" placeholder="Elérhető darabszám"></th>
+                <th><input type="number" id="year2" placeholder="Gyártási év"></th>
+                <th><input type="number" id="horsepower2" placeholder="Lóerő"></th>
+            </tr>
+        </table>
+        <table class="editTable">
+            <th><button id="editCar">Szerkesztés</button></th>
+        </table>
+    </div>
+</form>
+</html>

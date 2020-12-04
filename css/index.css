@@ -1,0 +1,57 @@
+.menuBar{
+    margin: auto;
+    width: 300px;
+    height: 20px;
+    padding-top: 30px;
+    display: flex;
+    border: 5px black;
+    color: black;
+    border-radius: 10px black;
+}
+
+.menuButton{
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    border: 20px solid black;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+}
+
+.otherTable{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-style: double;
+}
+
+.infoTable{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-style: double;
+}
+
+#content{
+    margin-top: 150px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+th, td{
+    padding: 15px 15px;
+    width: auto;
+}
+
+.editTable{
+    margin-left: auto;
+    margin-right: auto;
+}

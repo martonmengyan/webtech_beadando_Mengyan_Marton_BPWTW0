@@ -1,0 +1,48 @@
+<html lang="en">
+    <form method="POST" action="https://webtechcars.herokuapp.com/api/manufacturers">
+    <script src="js/manufacturers.js" type="text/javascript"></script>
+        <div class="Tabla"></div>
+            <table class="infoTable" id="manuTable">
+                <tr>
+                    <th>Gyártó hozzáadása</th>
+                    <th>Gyártó neve</th>
+                    <th>Ország</th>
+                    <th>Alapítási év</th>
+                </tr>
+                <tr>
+                    <th><button id="add-manu">Hozzáad</button></th>
+                    <th><input type="text" id="name" placeholder="Gyártó neve"></th>
+                    <th><input type="text" id="country" placeholder="Ország"></th>
+                    <th><input type="date" id="founded" placeholder="Alapítási év"></th>
+                </tr>
+            </table>
+            <table class="otherTable">
+                <tr>
+                    <th>Manu törlése</th>
+                    <th>Manu id</th>
+                </tr>
+                <tr>
+                    <th><button id="deleteManu">Törlés</button></th>
+                    <th><select type="text" id="idDelete"></select></th>
+                </tr>
+            </table>
+            <table class="otherTable" id="manuTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Gyártó neve</th>
+                    <th>Ország</th>
+                    <th>Alapítási év</th>
+                </tr>
+                <tr>
+                    <th><select type="text" id="idEdit"></select></th>
+                    <th><input type="text" id="name" placeholder="Gyártó neve"></th>
+                    <th><input type="text" id="country" placeholder="Ország"></th>
+                    <th><input type="text" id="founded" placeholder="Alapítási év"></th>
+                </tr>
+            </table>
+            <table class="editTable">
+                <th><button id="editManu">Szerkesztés</button></th>
+            </table>
+        </div>
+    </form>
+</html>
