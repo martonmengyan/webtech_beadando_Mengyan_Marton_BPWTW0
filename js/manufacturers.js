@@ -109,9 +109,9 @@ function editManu(){
     })
 
     const manuData = JSON.stringify({
-        "name": document.getElementById("name").value,
-        "consumption": document.getElementById("country").value,
-        "color": document.getElementById("founded").value,
+        "name": document.getElementById("name2").value,
+        "country": document.getElementById("country2").value,
+        "founded": document.getElementById("founded2").value,
     });
     $.ajax({
         type:"POST",
