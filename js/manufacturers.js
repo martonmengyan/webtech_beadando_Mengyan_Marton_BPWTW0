@@ -2,7 +2,7 @@ $(function(){
     listAllManufacturers();
     getManuID4Del();
     getManuID4Edit();
-    $("#addManu").click(function(){
+    $("#add-manu").click(function(){
         addManu();
     });
 
@@ -113,6 +113,7 @@ function editManu(){
         "country": document.getElementById("country2").value,
         "founded": document.getElementById("founded2").value,
     });
+    console.log(manuData);
     $.ajax({
         type:"POST",
         url: "https://webtechcars.herokuapp.com/api/manufacturers",
